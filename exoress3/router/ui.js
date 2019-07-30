@@ -1,16 +1,12 @@
 const express = require("express");
 const {resolve} = require("path");
+const  loginCheck = require("../middleware/login-check")
 
 const router = new express.Router();
 
-router.get('/user.html',(req,res)=>{
-  const filePath = resolve(__dirname,'../views',"user.html");
-  console.log(req.session.userId);
-  if (req.session.userId){
-    res.sendFile(filePath)
-  } else{
-    res.redirect("http://localhost:3000/login.html");
-  }
+router.get('/user.html',loginCheck,(req,res)=>{
+
+    res.sendFile(resolve(__dirname,"../views","user.html"));
 });
 
 module.exports = router;

@@ -1,2 +1,8 @@
 ::1 - - [30/Jul/2019:12:13:13 +0000] "POST /login HTTP/1.1" 302 106 "http://localhost:3000/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
 ::1 - - [30/Jul/2019:12:13:13 +0000] "GET /user.html HTTP/1.1" 304 - "http://localhost:3000/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+::1 - - [30/Jul/2019:12:43:09 +0000] "POST /login HTTP/1.1" 302 106 "http://localhost:3000/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+::1 - - [30/Jul/2019:12:43:09 +0000] "GET /user.html HTTP/1.1" 304 - "http://localhost:3000/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+::1 - - [30/Jul/2019:12:50:59 +0000] "POST /login HTTP/1.1" 200 24 "http://localhost:3000/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+::1 - - [30/Jul/2019:12:51:52 +0000] "POST /login HTTP/1.1" 200 24 "http://localhost:3000/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+::1 - - [30/Jul/2019:12:52:18 +0000] "POST /login HTTP/1.1" 302 106 "http://localhost:3000/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+::1 - - [30/Jul/2019:12:52:18 +0000] "GET /user.html HTTP/1.1" 304 - "http://localhost:3000/login.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
